@@ -1,0 +1,42 @@
+Indulási emelet: 10
+Célemelet: 17
+Feladatkód: 21
+Befejezés ideje: 9:3:14
+Sikeresség: befejezett
+-----
+Indulási emelet: 17
+Célemelet: 51
+Feladatkód: 83
+Befejezés ideje: 9:16:17
+Sikeresség: befejezett
+-----
+Indulási emelet: 50
+Célemelet: 43
+Feladatkód: 48
+Befejezés ideje: 9:48:9
+Sikeresség: befejezetlen
+-----
+Indulási emelet: 43
+Célemelet: 49
+Feladatkód: 67
+Befejezés ideje: 10:32:45
+Sikeresség: befejezett
+-----
+Indulási emelet: 49
+Célemelet: 55
+Feladatkód: 25
+Befejezés ideje: 11:32:40
+Sikeresség: befejezetlen
+-----
+Indulási emelet: 55
+Célemelet: 17
+Feladatkód: 59
+Befejezés ideje: 12:13:50
+Sikeresség: befejezetlen
+-----
+Indulási emelet: 17
+Célemelet: 5
+Feladatkód: 63
+Befejezés ideje: 12:53:22
+Sikeresség: befejezetlen
+-----

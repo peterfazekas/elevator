@@ -10,7 +10,7 @@ public class Request {
     private final int from;
     private final int to;
 
-    public Request(Time time, int groupId, int from, int to) {
+    public Request(final Time time, final int groupId, final int from, final int to) {
         this.time = time;
         this.groupId = groupId;
         this.from = from;

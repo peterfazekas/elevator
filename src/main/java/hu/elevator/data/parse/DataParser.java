@@ -12,19 +12,22 @@ import java.util.stream.Collectors;
 public class DataParser {
 
     private static final String SEPARATOR = " ";
+    private int numberOfGroups;
+
+    public int getNumberOfGroups() {
+        return numberOfGroups;
+    }
 
     private List<String> trim(final List<String> lines) {
+        numberOfGroups = parseInt(lines.get(1));
         return lines.subList(3, lines.size());
-        //        List<String> trimmedList = new ArrayList<>();
-//        for (int i = 3; i <lines.size() ; i++) {
-//            trimmedList.add(lines.get(i));
-//        }
-//        return trimmedList;
     }
 
     public List<Request> parse(final List<String> lines) {
         List<String> trimmedList = trim(lines);
-        return trimmedList.stream().map(this::createRequest).collect(Collectors.toList());
+        return trimmedList.stream()
+                .map(this::createRequest)
+                .collect(Collectors.toList());
     }
 
 

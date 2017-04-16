@@ -16,8 +16,9 @@ public class FileDataReader implements DataReader {
 
     public List<String> read(final String fileName) {
         List<String> lines = new ArrayList<>();
-        try (BufferedReader read = new BufferedReader(new FileReader(PATH + fileName))){
-            lines = read.lines().collect(Collectors.toList());
+        try (BufferedReader read = new BufferedReader(new FileReader(PATH + fileName))) {
+            lines = read.lines()
+                    .collect(Collectors.toList());
         } catch (IOException e) {
             e.printStackTrace();
         }
